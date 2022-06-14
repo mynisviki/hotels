@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerBold.woff') format('woff'),
+    url('../fonts/MullerBold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerLight.woff') format('woff'),
+    url('../fonts/MullerLight.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.woff') format('woff'),
+    url('../fonts/MullerMedium.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.woff') format('woff'),
+    url('../fonts/MullerRegular.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: regular;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+/*Header*/
+.header {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.header-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-first-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 45px 14px 45px;
+  border: 1px black solid;
+}
+
+.header-second-left-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+/* Special */
+.special-container {
+  margin-bottom: 125px;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.section-special-bloks-list {
+  display: grid;
+  grid-template-areas:
+    "a c"
+    "b c";
+  grid-template-rows: repeat(2, 256px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 23px;
+}
+
+.section-special-bloks-item {
+  border: 1px black solid;
+}
+
+.section-special-bloks-item_a {
+  grid-area: a;
+}
+
+.section-special-bloks-item_b {
+  grid-area: b;
+}
+
+.section-special-bloks-item_big {
+  grid-area: c;
+}
+
+/* About us */
+.section-about-us-container {
+  margin-bottom: 14px;
+}
+
+.section-about-us-text {
+  max-width: 888px;
+}
+
+/* Services */
+.section-services-container {
+  margin-bottom: 70px;
+}
+
+.section-services-cards-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 330px);
+  gap: 23px;
+}
+
+.section-services-cards-item {
+  border: 1px black solid;
+}
+
+/* Advantages */
+.advantages-container {
+  margin-bottom: 70px;
+}
+
+.section-advantages-cards-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 275px);
+  gap: 23px;
+}
+
+.section-advantages-cards-item {
+  border: 1px black solid;
+}
+
+/* Placement */
+.placement-container {
+  margin-bottom: 70px;
+}
+
+.section-placement-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 440px);
+  gap: 23px;
+}
+
+.section-placement-card {
+  border: 1px black solid;
+}
+
+.section-placement-card-price-container {
+  display: flex;
+  gap: 5px;
+}
