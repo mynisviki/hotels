@@ -85,6 +85,11 @@ img {
   color: #CC9933;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #f1f0f0
+}
+
 /*Header*/
 .header {
   margin-top: 30px;
@@ -136,7 +141,7 @@ img {
   gap: 45px;
 }
 
-.header-second-left-section-item {
+.header-second-left-section-item-link {
   color: #666666;
 }
 
