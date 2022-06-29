@@ -277,7 +277,7 @@ img {
 }
 
 .section-services-cards-text-container {
-  padding: 26px 45px;  
+  padding: 26px 45px;
 }
 
 .section-services-cards-header {
@@ -286,7 +286,7 @@ img {
   font-size: 20px;
   line-height: 40px;
   color: #CC9933;
-  background: url('../img/rectangle-2.svg') no-repeat right center ;
+  background: url('../img/rectangle-2.svg') no-repeat right center;
   padding-right: 15px;
 }
 
@@ -388,7 +388,7 @@ img {
   gap: 6px;
 }
 
-.section-placement-card-rating-container > img {
+.section-placement-card-rating-container>img {
   width: 14px;
   height: 14px;
   margin: 0;
@@ -468,4 +468,145 @@ img {
   color: #FFFFFF;
   background: url('../img/rectangle-3.svg') no-repeat center right;
   padding-right: 15px;
+}
+
+/* Tour form */
+.tour-form-grey-box {
+  margin-bottom: 70px;
+  background-color: #E9E9E9;
+  border-radius: 15px;
+  padding: 45px;
+  width: 1170px;
+}
+
+.tour-form_heading {
+  margin-left: 0;
+}
+
+.tour-white-box {
+  margin: 0 auto;
+  padding: 31px 28px;
+  width: 1080px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.tour-selection {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+}
+
+.tour-form-editor {
+  display: block;
+  margin-top: 15px;
+  border: none;
+  width: 121px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.tour-form-editor-city-country {
+  width: 169px;
+
+}
+
+.tour-form-btn {
+  margin-left: 10px;
+  width: 108px;
+}
+
+.city,
+.country,
+.date,
+.nights,
+.tourists {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.nights,
+.tourists {
+  border-bottom: 1px solid #E9E9E9;
+}
+
+/*Contacts*/
+.contacts-white-box {
+  display: flex;
+  gap: 52px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 45px;
+  margin-bottom: 40px;
+}
+
+.contacts-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 375px;
+}
+
+.info-row {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: 23px;
+}
+
+.contacts-header {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  width: 145px;
+}
+
+.contacts-text {
+  line-height: 24px;
+  margin: 0;
+}
+
+.contacts-phones-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-ph-number {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CC9933;
+}
+
+.contacts-email-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-email-adress {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CC9933;
+}
+
+.contacts-email-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  margin: 0;
+}
+
+.contacts-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts-btn {
+  padding: 27px 29.5px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 215px;
+}
+
+.contacts-right-section-img {
+  border-radius: 15px;
 }
